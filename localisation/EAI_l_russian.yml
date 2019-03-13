@@ -7,9 +7,9 @@ l_russian:
 
  EAI_resistance_effects_reduced:0 "Expert AI"
 
- EAI_attrition_reduction:0 "Сокращение истощения 1 Expert AI""
- EAI_attrition_reduction2:0 "Сокращение истощения 2 Expert AI""
- EAI_attrition_reduction3:0 "Сокращение истощения 3 Expert AI""
+ EAI_attrition_reduction:0 "Сокращение истощения 1 Expert AI"
+ EAI_attrition_reduction2:0 "Сокращение истощения 2 Expert AI"
+ EAI_attrition_reduction3:0 "Сокращение истощения 3 Expert AI"
 
  EAI_neutrality_idea:0 "Нейтральные страны"
  EAI_neutrality_idea_USA:0 "Изоляционистский настрой"
@@ -229,17 +229,17 @@ l_russian:
  
  
  
- EAI_config_GENERAL_1_text:0 "AI Military Focuses"
- EAI_config_GENERAL_1_dropdown_text:0 "AI Military Focuses: [EAI_GetAIFocuses]"
+ EAI_config_GENERAL_1_text:0 "AI Военные фокусы"
+ EAI_config_GENERAL_1_dropdown_text:0 "AI Военные фокусы: [EAI_GetAIFocuses]"
  EAI_config_GENERAL_1_tt:0 "This influences the overall types of armies, navies and aircraft the AI researches and builds.\n\n§YChanging this once the game has begun will have little effect. You can still reconfigure a country's focuses through the country configuration.§!"
- EAI_config_GENERAL_1a_text:0 "Normal"
- EAI_config_GENERAL_1a_tt:0 "§YNormal:§! The default mode. Not as competitive as the Challenging Mode when it comes to min-maxing, it has more freedom in choosing different strategies in each game and may not always stick to strictly meta divisions."
- EAI_config_GENERAL_1b_text:0 "Challenging"
- EAI_config_GENERAL_1b_tt:0 "§YChallenging:§! For those who want the AI to focus on more competitive builds. It focuses on more effective strategies rather than variety such as: 40w infantry, effective doctrines, fewer types of templates, aircraft and ships built in order to focus its research and XP more."
- EAI_config_GENERAL_1c_text:0 "Historical"
- EAI_config_GENERAL_1c_tt:0 "§YHistorical:§! For those who want the AI to avoid meta strategies like 40 width divisions and want the AI (majors especially) to build units more historically and predictably. Don't expect real historical accuracy."
- EAI_config_GENERAL_1d_text:0 "Random"
- EAI_config_GENERAL_1d_tt:0 "§YRandom:§! Anything goes. In case you want the AI to surprise you."
+ EAI_config_GENERAL_1a_text:0 "Нормальные"
+ EAI_config_GENERAL_1a_tt:0 "§YНормальные:§! The default mode. Not as competitive as the Challenging Mode when it comes to min-maxing, it has more freedom in choosing different strategies in each game and may not always stick to strictly meta divisions."
+ EAI_config_GENERAL_1b_text:0 "Испытывающие"
+ EAI_config_GENERAL_1b_tt:0 "§YИспытывающие:§! For those who want the AI to focus on more competitive builds. It focuses on more effective strategies rather than variety such as: 40w infantry, effective doctrines, fewer types of templates, aircraft and ships built in order to focus its research and XP more."
+ EAI_config_GENERAL_1c_text:0 "Исторические"
+ EAI_config_GENERAL_1c_tt:0 "§YИсторические:§! For those who want the AI to avoid meta strategies like 40 width divisions and want the AI (majors especially) to build units more historically and predictably. Don't expect real historical accuracy."
+ EAI_config_GENERAL_1d_text:0 "Случайные"
+ EAI_config_GENERAL_1d_tt:0 "§YСлучайные:§! Случайный набор. Если вы хотите, что бы AI вас удивил."
  
  EAI_config_GENERAL_global_army_config_tt:0 "Configure military focuses for all AI countries that have no focuses currently.\n\n §YChanging this once the game has begun will have little effect. You can still reconfigure a country's focuses through the country configuration.§!"
 
@@ -328,19 +328,19 @@ l_russian:
  
  EAI_config_ARMY_reconfigure_text:0 "Изменить"
  EAI_config_ARMY_reconfigure_tt:0 "Внести изменения в военную направленность текущей цели."
- EAI_config_ARMY_reconfigure_tt_DIPLOMATIC:0 "Make changes to [?EAI_configuration_target.GetName]'s military production. This requires [?EAI_config_cp_cost] command power."
+ EAI_config_ARMY_reconfigure_tt_DIPLOMATIC:0 "Внести изменения [?EAI_configuration_target.GetName] внести изменения в военное производство. Для этого требуются [?EAI_config_cp_cost] коммандыне очки."
  
- EAI_config_ARMY_confirm_text:0 "Confirm"
- EAI_config_ARMY_confirm_tt:0 "Confirm the changes to this country's military focuses."
+ EAI_config_ARMY_confirm_text:0 "Подтвердить"
+ EAI_config_ARMY_confirm_tt:0 "Подтвердите изменения в военных фокусах этой страны."
  
- EAI_config_ARMY_cancel_text:0 "Cancel"
- EAI_config_ARMY_cancel_tt:0 "Cancel the changes to to this country's military focuses."
+ EAI_config_ARMY_cancel_text:0 "Отмена"
+ EAI_config_ARMY_cancel_tt:0 "Отменить изменения в военных фокусах этой страны."
  
- EAI_config_ARMY_reset_text:0 "Reset"
- EAI_config_ARMY_reset_tt:0 "Remove ALL current target's military focuses and the changes you have made."
+ EAI_config_ARMY_reset_text:0 "Сброс"
+ EAI_config_ARMY_reset_tt:0 "Удалить ВСЕ текущие военные цели и изменения, которые вы сделали."
  
- EAI_config_ARMY_exit_text:0 "Exit"
- EAI_config_ARMY_exit_tt:0 "Leave the military configuration."
+ EAI_config_ARMY_exit_text:0 "Выход"
+ EAI_config_ARMY_exit_tt:0 "Выйдите из военной конфигурации."
  
  
  EAI_config_ARMY_land_category_headline:0 "Ground Force"
@@ -532,18 +532,18 @@ l_russian:
  EAI_config_ARMY_N7b_text:0 "Fleet Carrier"
  EAI_config_ARMY_N7c_text:0 "Light Carrier"
  
- EAI_config_ARMY_N8_text:0 "Submarines"
- EAI_config_ARMY_N8_tt:0 "§LThis determines this country's research and production focus on submarines.§!"
+ EAI_config_ARMY_N8_text:0 "Субмарины"
+ EAI_config_ARMY_N8_tt:0 "§LЭто определяет исследовательскую и производственную направленность этой страны на подводные лодки.§!"
  EAI_config_ARMY_N8_dropdown_text:0 "[EAI_GetSSFocus]"
  EAI_config_ARMY_N8-_text:0 "-"
- EAI_config_ARMY_N8a_text:0 "Off"
- EAI_config_ARMY_N8b_text:0 "On"
+ EAI_config_ARMY_N8a_text:0 "Выкл"
+ EAI_config_ARMY_N8b_text:0 "Вкл"
  
 
 
  EAI_config_custom_bonus_tt:0 "Настроить модификатор Бонуса Сложности."
  EAI_config_custom_bonus_eq_modifier_text:0 "Динамическое снижение стоимости оборудования"
- EAI_config_CUSTOM_BONUS_25_tt:0 "Оборудование с небольшими запасами снизило затраты.\n\n-33/-66/-75% сокращение в зависимости от сложности."
+ EAI_config_CUSTOM_BONUS_25_tt:0 "Оборудование с небольшими запасами по пониженным затратам производства.\n\n-33/-66/-75% сокращение в зависимости от сложности."
  
  
 
@@ -555,9 +555,9 @@ l_russian:
  
  EAI_stockpile_text:0 "Тип оборудования"
  EAI_stockpile_text2:0 "Склад"
- EAI_stockpile_text2_22:0 "Equipment available in their stockpile."
+ EAI_stockpile_text2_22:0 "Оборудование доступно в запасах."
  EAI_stockpile_text3:0 "Принимать"
- EAI_stockpile_text3_tt:0 "How well equipped their armies are with this equipment type."
+ EAI_stockpile_text3_tt:0 "Насколько хорошо вооружены их армии этим типом снаряжения."
 
  EAI_stockpile_infantry_equipment_text:0 "Infantry Eq."
  EAI_stockpile_support_equipment_text:0 "Support Eq."
@@ -593,9 +593,9 @@ l_russian:
  EAI_stockpile_modspart_equipment_text:0 "Sp. Artillery"
  EAI_stockpile_modspaa_equipment_text:0 "Sp. Anti-Air"
  
- EAI_misc_cat_text:0 "Misc"
- EAI_stockpile_convoy_equipment_text:0 "Convoys"
- EAI_stockpile_fuel_text:0 "Fuel stockpile"
+ EAI_misc_cat_text:0 "Разное"
+ EAI_stockpile_convoy_equipment_text:0 "Конвои"
+ EAI_stockpile_fuel_text:0 "Запас топлива"
 
  ETH_IEA_fascism:0 "Итальянская Восточная Африка"
  ETH_IEA_fascism_DEF:0 "Итальянская Восточная Африка"
