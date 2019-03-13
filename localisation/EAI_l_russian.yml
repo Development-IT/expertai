@@ -343,9 +343,9 @@ l_russian:
  EAI_config_ARMY_exit_tt:0 "Выйдите из военной конфигурации."
  
  
- EAI_config_ARMY_land_category_headline:0 "Ground Force"
+ EAI_config_ARMY_land_category_headline:0 "Сухопутные войска"
  
- EAI_config_ARMY_L1_text:0 "Land Doctrine"
+ EAI_config_ARMY_L1_text:0 "Наземная доктрина"
  EAI_config_ARMY_L1_tt:0 "§YLand doctrine cannot be changed once this country has begun researching it.§!"
  EAI_config_ARMY_L1_tt2:0 "§RMass Assault doctrine is incompatible with 26-width infantry width.§!"
  EAI_config_ARMY_L1_dropdown_text:0 "[EAI_GetLandDoctrine]"
